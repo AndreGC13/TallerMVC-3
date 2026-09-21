@@ -124,5 +124,10 @@ namespace CapaVista_prototipoumg26.Formas
             FrmReporteEmpleado reporteEmpleado = new FrmReporteEmpleado();
             reporteEmpleado.ShowDialog();
         }
+
+        private void AyudaBtn_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:\\Ayudas\\AyudaEmpleado.chm","ReporteEmpleado.html");
+        }
     }
 }

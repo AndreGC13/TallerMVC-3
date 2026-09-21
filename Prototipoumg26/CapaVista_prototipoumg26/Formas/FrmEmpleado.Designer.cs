@@ -34,6 +34,7 @@ namespace CapaVista_prototipoumg26.Formas
             this.lblNombre = new System.Windows.Forms.Label();
             this.comboI1 = new Capa_Vista_ComboI.ComboI();
             this.ReporteBtn = new System.Windows.Forms.Button();
+            this.AyudaBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
             this.panIngresoDatos.SuspendLayout();
             this.SuspendLayout();
@@ -216,11 +217,22 @@ namespace CapaVista_prototipoumg26.Formas
             this.ReporteBtn.UseVisualStyleBackColor = true;
             this.ReporteBtn.Click += new System.EventHandler(this.ReporteBtn_Click);
             // 
+            // AyudaBtn
+            // 
+            this.AyudaBtn.Location = new System.Drawing.Point(426, 252);
+            this.AyudaBtn.Name = "AyudaBtn";
+            this.AyudaBtn.Size = new System.Drawing.Size(75, 23);
+            this.AyudaBtn.TabIndex = 10;
+            this.AyudaBtn.Text = "Ayuda";
+            this.AyudaBtn.UseVisualStyleBackColor = true;
+            this.AyudaBtn.Click += new System.EventHandler(this.AyudaBtn_Click);
+            // 
             // FrmEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(513, 375);
+            this.Controls.Add(this.AyudaBtn);
             this.Controls.Add(this.ReporteBtn);
             this.Controls.Add(this.comboI1);
             this.Controls.Add(this.panIngresoDatos);
@@ -262,5 +274,6 @@ namespace CapaVista_prototipoumg26.Formas
         private System.Windows.Forms.Label lblNombre;
         private Capa_Vista_ComboI.ComboI comboI1;
         private System.Windows.Forms.Button ReporteBtn;
+        private System.Windows.Forms.Button AyudaBtn;
     }
 }
